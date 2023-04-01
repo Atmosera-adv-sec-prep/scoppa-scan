@@ -2,8 +2,6 @@
 
 This exercise checks your knowledge on enabling code scanning with CodeQL on a GitHub repository. It is automatically graded via a workflow once you have completed the instructions.
 
-andrew's sample1
-
 ## About this exercise
 
 A grading script exists under `.github/workflows/grading.yml`. You do not need to use this workflow for any purpose and **altering its contents will affect the repository's ability to assess your exercise and give feedback.**
