@@ -1,7 +1,7 @@
 name: "Upload SARIF"
 
-// Run workflow each time code is pushed to your repository and on a schedule. 
-//The scheduled workflow runs every Thursday at 15:45 UTC.
+# Run workflow each time code is pushed to your repository and on a schedule. 
+# The scheduled workflow runs every Thursday at 15:45 UTC.
 
 on:
   workflow_dispatch:
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       security-events: write
-  steps:
+    steps:
     # This step checks out a copy of your repository.
     - name: Checkout repository
       uses: actions/checkout@v2
@@ -20,3 +20,4 @@ jobs:
       with:
         # Path to SARIF file relative to the root of the repository
         sarif_file: results.sarif 
+
